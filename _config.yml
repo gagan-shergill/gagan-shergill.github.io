@@ -1,14 +1,11 @@
-{% if site.instagram_username %}
-  <li>
-    <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-      <i class="fa fa-instagram"></i>
-    </a>
-  </li>
-{% endif %}
-{% if site.linkedin_username %}
-  <li>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-      <i class="fa fa-linkedin"></i>
-    </a>
-  </li>
-{% endif %}
+title: "Hello. I'm Gagan Shergill."
+email: "gaganshergill11@gmail.com"
+description: "I am a school psychologist and doctoral student whose research centers on learning analytics, artificial intelligence, and the development of equitable, data-driven approaches to support multilingual learners."
+baseurl: "" 
+url: "https://gagan-shergill.github.io"
+
+github_username: "gagan-shergill"
+instagram_username: "schoolpsychbytes"
+linkedin_username: "gagan-shergill"
+
+theme: jekyll-theme-cayman
