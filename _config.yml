@@ -2,10 +2,24 @@ title: "Hello. I'm Gagan Shergill."
 email: "gaganshergill11@gmail.com"
 description: "I am a school psychologist and doctoral student whose research centers on learning analytics, artificial intelligence, and the development of equitable, data-driven approaches to support multilingual learners."
 baseurl: "" 
-url: "https://gagan-shergill.github.io"
+url: "https://piccolo42.github.io"
 
 github_username: "gagan-shergill"
 instagram_username: "schoolpsychbytes"
 linkedin_username: "gagan-shergill"
 
-theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num/"
+
+admin_name: "Gagan Shergill"
+google_analytics: "UA-9999999-99"
+enable_contact: false
+
+enable_nav: true
+nav_item:
+  - { url: "/", text: "Home" }
+  - { url: "/about", text: "About" }
