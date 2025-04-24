@@ -1,10 +1,28 @@
-
     <footer class="site-footer">
       <div class="container">
         <div class="row">
 
           <div class="col-xs-12 col-md-2 col-md-offset-1">
             <p class="text-muted text-left "><a href="{{ site.url }}">{{ site.footer_text }}</a></p>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <ul class="list-inline text-center">
+              {% if site.instagram_username %}
+                <li>
+                  <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              {% endif %}
+              {% if site.linkedin_username %}
+                <li>
+                  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              {% endif %}
+            </ul>
           </div>
 
           <div class="col-xs-12 col-md-6 col-md-offset-2">
