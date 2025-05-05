@@ -202,4 +202,5 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/projects', text: 'Projects' }
 {% endhighlight %}
