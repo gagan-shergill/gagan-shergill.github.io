@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: inner
 title: Projects
-permalink: /projects.md/
+permalink: /projects/
 ---
 
 ## Projects
